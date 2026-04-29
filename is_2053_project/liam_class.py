@@ -8,11 +8,14 @@ class liam:
             while True:
                 try:
                     user_guess = int(input(f"Enter your guess (0-{maximum_guess}): "))
-                except TypeError:
+                except ValueError:
                     print("Invalid guess. Try again.")
+                else:
+                    if user_guess >= 0 and user_guess <= maximum_guess: break
+                    else: print("Invalid guess. Try again.")
             computer_guess = random.randint(0, maximum_guess)
             if computer_guess == user_guess:
-                score += maximum_guess
+                score += 1
                 print(f"You guessed correctly. Your score is {score}")
                 maximum_guess += 1
                 continue
