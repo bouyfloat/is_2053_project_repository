@@ -1,0 +1,17 @@
+'''
+source control > (cs " ") & (> cs "stage all cs")
+source control > cs > more actions... > commit & push
+'''
+'''
+python file_name.py #run a .py file
+
+command palette > 'create new terminal (with profile)' #opens terminal
+'''
+'''
+#main function
+
+def main():
+    #
+if __name__ == "__main__":
+    main()
+'''
