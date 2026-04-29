@@ -18,6 +18,9 @@ def menu():
             menu_item = int(input("Select a menu item: "))
         except TypeError: print("Invalid input. Try again.")
         else:
+            if menu_item == 3: 
+                import battleships
+                battleships.play_game()
             if menu_item >= 0 and menu_item <= 4: break
             else: print("Invalid input. Try again.")
     #call menu item functions
