@@ -5,7 +5,7 @@ source control > cs > more actions... > commit & push
 '''
 python file_name.py #run a .py file
 
-command palette > 'create new terminal (with profile)' #opens terminal
+command palette > 'create new terminal (with profile)' > bash #opens terminal
 '''
 '''
 #main function
