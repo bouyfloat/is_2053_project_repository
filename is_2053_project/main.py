@@ -11,7 +11,7 @@ def menu():
     print("0. End program")
     print("1. Log in")
     print("2. Create account")
-    print("3. Play Kevin's game")
+    print("3. Play Battleships")
     print("4. Play Liam's game")
     while True: #user select menu item
         try:
