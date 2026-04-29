@@ -1,6 +1,6 @@
 '''
 source control > (cs " ") & (> cs "stage all cs")
-source control > cs > more actions... > commit & push
+source control > cs > more actions... > commit & sync
 '''
 '''
 python file_name.py #run a .py file
