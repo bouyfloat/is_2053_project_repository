@@ -1,3 +1,9 @@
+# Liam Endress, Kevin Gomez
+# IS-2053-010-Spring_2026
+# Mini Games 4 Fun
+# This program is meant for user to pass idle time. It offers two minigames, 'Guess the Number' and 'Battleships'. Users can play the game until they're ready to quit.
+
+
 def create_login():
     a=0
 def get_score():
